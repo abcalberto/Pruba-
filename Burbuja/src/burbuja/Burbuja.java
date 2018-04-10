@@ -3,7 +3,7 @@ package burbuja;
 import java.util.Scanner;
 /**
  *
- * @author José Miguel Llanos M
+ * 
  */
 public class Burbuja {   
     public static void main(String[] args) {        
