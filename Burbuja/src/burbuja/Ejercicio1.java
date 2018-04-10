@@ -9,18 +9,18 @@ import java.util.Scanner;
 public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner captura = new Scanner(System.in);
-        int tamanio;
+        int tam;
         int sumatoria = 0;
         
         // Indicar al usuario cuantos elementos debe tener el vector
         System.out.println("Digite el tamaño del vector:");
-        tamanio = captura.nextInt();
+        tam = captura.nextInt();
         
         // Defino e instancio el vector
-         int vector[] = new int[tamanio]; 
+         int vector[] = new int[tam]; 
          
         // Cargar el vector
-        for(int i=0; i<tamanio; i++){
+        for(int i=0; i<tam; i++){
             System.out.println("Digite un valor para el vector");
             vector[i] = captura.nextInt();
             
